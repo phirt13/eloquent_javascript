@@ -21,8 +21,9 @@
         }
       }
       boardString += '\n';
+      console.log(boardString);
     }
-    console.log(boardString);
+
   };
 
   makeChessBoard(8, 8);
